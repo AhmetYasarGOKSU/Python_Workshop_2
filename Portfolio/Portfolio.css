@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav_container {
+    width: 100%;
+    height: 7vw;
+    background-color: rgba(14, 4, 39, 0.905);
+}
+
+.name {
+    color: #fff;
+    position: absolute;
+    left: 5%;
+    top: 2vw;
+    font-size: 2vw;
+}
+
+.nav_ticket {
+    display: flex;
+    float: left;
+    list-style-type: none;
+    position: absolute;
+    right: 10%;
+    top: 3vw;
+    
+}
+
+.ticket {
+    text-decoration: none;
+    color: #fff;
+    margin: .3vw;
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+.ticket:hover {
+    background-color: #ffffff9b;
+}
+.main_container {
+    width: 100%;
+    height: 175vw;
+    background-color: rgba(1, 1, 38, 0.858);
+}
+.title_content { 
+    color: #fff;
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 12vw;
+    padding-top: 10%;
+}
+.contact_button {
+    background-color: rgb(247, 77, 77);
+    width: 15%;
+    margin-left: 12%;
+    margin-top: 2%;
+    height: 5vw;
+    font-size: 1.2vw;
+    color: #fff;
+}
+.service {
+    margin-left: 12%;
+    margin-top: 20vw;
+    font-size: 1.5vw;
+    color: #fff;
+}
+.skill_set {
+    font-size: 4.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 12%;
+    margin-top: .5vw;
+    color: rgb(247, 77, 77);
+    width: 700;
+}
+.box_1 {
+    float: left;    
+    margin-left: 12%;
+    width: 20%;
+    height: 25vw;
+    margin-top: 3%;
+    border: .1px solid rgba(40, 40, 91, 0.727);
+    background-color: rgba(40, 40, 91, 0.727);
+}
+.box_2{
+    float: left;
+    width: 20%;
+    height: 25vw;
+    margin-left: 4%;
+    margin-top: 3%;
+    border: .1px solid rgba(40, 40, 91, 0.727);
+    background-color: rgba(40, 40, 91, 0.727);
+    
+}
+.box_title {
+    padding-left: 4%;
+    font-size: 1.6vw;
+    color: #fff;
+}
+.box_text {
+    padding-left: 5%;
+    padding-top: 4%;
+    font-size: 1.2vw;
+    padding-bottom: 10%;
+    color: #fff;
+}
+#logo {
+    padding: 10%;
+    color: rgb(247, 77, 77); 
+    font-size: 3.3vw;
+}
+.contact_wme {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4.5vw;
+    color: rgb(247, 77, 77);
+    margin-top: 15vw;
+    margin-left: 12%;
+}
+.right_box { 
+    height: 60vw;
+}
+.input { 
+    margin-left: 12%;
+    width: 35%;
+    height: 5vw;
+    margin-top: 2%;
+    background-color: rgba(22, 22, 59, 0.442);
+    color: #fff;
+    font-size: 1.6vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+::placeholder {
+    color: rgba(8, 12, 43, 0.675);
+    font-size: 1.6vw;
+    padding: 4%;
+}
+.input_button {
+    margin-top: 2%;
+    margin-left: 30.5%;
+    width: 17%;
+    height: 5vw;
+    background-color: rgb(247, 77, 77);
+    font-size: 1.6vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.input_button a {    
+    color: rgba(8, 12, 43, 0.675);
+    text-decoration: none;
+}
